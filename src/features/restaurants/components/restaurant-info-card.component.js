@@ -37,7 +37,7 @@ export const RestaurantInfoCard = ({ restaurant = {} }) => {
                 <Text variant="label">{name}</Text>
                 <Section>
                     <Rating>
-                        {ratingArray.map((index) => (
+                        {ratingArray.map((r, index) => (
                             <SvgXml
                                 key={index}
                                 xml={star}
